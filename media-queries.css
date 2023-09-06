@@ -1,0 +1,24 @@
+@media screen and (max-width : 1024px)
+{
+    .main-section{
+        flex-direction: column;
+    }
+    .left-content{
+        padding-top: 20px;
+        margin: none;
+        text-align: center;
+        width: 70vw;
+    }
+     .box{
+        height: 150px;
+        grid-row: span 1;
+        grid-column: span 1;
+        margin-bottom: 20px;
+    } 
+    .right-gallery{
+        width: 100vw;
+        grid-template-columns: 100%;
+        /* padding-bottom: 30px; */
+        /* grid-gap: 15px; */
+    }
+}
